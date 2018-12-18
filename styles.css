@@ -1,0 +1,38 @@
+#header
+{
+    background-image: url(images/travelbanner.png);
+    background-color: cyan;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: auto;
+    padding: 150px 150px;
+
+}
+
+h1
+{
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+#download
+{
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+    font-family: Arial;
+    border: 1px solid #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#download:hover
+{
+    color: black;
+    background-color: white;
+}
