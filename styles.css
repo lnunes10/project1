@@ -1,6 +1,6 @@
 #header
 {
-    background-image: url(images/travelbanner.png);
+    background-image: url(images/internet.jpg);
     background-color: cyan;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,21 +9,11 @@
     padding: 150px 150px;
 
 }
-#contact{
-    background-image: url(images/received_221450125385426.jpeg);
-    background-color: cyan;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center ;
-    height: auto;
-    padding: 150px 150px;
-    color:white;
 
-}
 #about
 {
     height: auto;
-    padding: 150px 150px;
+    padding: 50px 50px;
 
 }
 #about h2,#about p,#contact h2,#contact p{
@@ -55,14 +45,12 @@ h1 {
     color: black;
     background-color: white;
 }
-.contactinfo{
-    background-color:white;
-    color:black;
-    border-radius:15px;
-    display:inline-block;
-    padding:5px 5px;
+footer{
+    background-color:black;
+    color:white;
+    margin-top:50px;
 }
-.contactinner{
-    display:flex;
-    justify-content:space-between ;
+.form-button{
+    margin-top:27px;
+    padding:25px 50px;
 }
