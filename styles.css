@@ -9,9 +9,28 @@
     padding: 150px 150px;
 
 }
+#contact{
+    background-image: url(images/received_221450125385426.jpeg);
+    background-color: cyan;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: auto;
+    padding: 150px 150px;
+    color:white;
 
-h1
+}
+#about
 {
+    height: auto;
+    padding: 150px 150px;
+
+}
+#about h2,#about p,#contact h2,#contact p{
+    text-align: center;
+
+}
+h1 {
     color: white;
     font-family: Arial;
     text-align: center;
@@ -35,4 +54,15 @@ h1
 {
     color: black;
     background-color: white;
+}
+.contactinfo{
+    background-color:white;
+    color:black;
+    border-radius:15px;
+    display:inline-block;
+    padding:5px 5px;
+}
+.contactinner{
+    display:flex;
+    justify-content:space-between ;
 }
